@@ -1,14 +1,21 @@
 {
   "name": "my-agentic-skills",
-  "description": "Personal agentic skills marketplace",
+  "owner": {
+    "name": "sassman"
+  },
+  "metadata": {
+    "description": "Personal agentic skills marketplace",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "my",
       "description": "Custom git and PR commands",
       "version": "1.0.0",
       "source": {
-        "source": "github",
-        "repo": "sassman/my-agentic-skills"
+        "source": "git-subdir",
+        "url": "https://github.com/sassman/my-agentic-skills.git",
+        "path": "plugins/my"
       }
     }
   ]
