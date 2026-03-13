@@ -1,0 +1,15 @@
+{
+  "name": "my-agentic-skills",
+  "description": "Personal agentic skills marketplace",
+  "plugins": [
+    {
+      "name": "my",
+      "description": "Custom git and PR commands",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "sassman/my-agentic-skills"
+      }
+    }
+  ]
+}
