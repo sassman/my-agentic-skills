@@ -1,0 +1,8 @@
+{
+  "name": "my",
+  "description": "Custom git and PR commands",
+  "version": "1.0.0",
+  "author": {
+    "name": "sassman"
+  }
+}
