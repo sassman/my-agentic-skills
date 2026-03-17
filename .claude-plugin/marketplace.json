@@ -10,11 +10,7 @@
       "name": "my",
       "description": "Custom git and PR commands",
       "version": "1.0.0",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/sassman/my-agentic-skills.git",
-        "path": "plugins/my"
-      }
+      "source": "./plugins/my"
     }
   ]
 }
