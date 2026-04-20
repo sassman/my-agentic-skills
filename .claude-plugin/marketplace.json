@@ -4,12 +4,12 @@
     "name": "sassman"
   },
   "description": "Personal agentic skills marketplace",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "plugins": [
     {
       "name": "my",
-      "description": "Custom git and PR commands",
-      "version": "1.0.0",
+      "description": "Custom git and PR commands, plus specialized agents for Rust TUI development",
+      "version": "1.1.0",
       "source": "./plugins/my"
     }
   ]
