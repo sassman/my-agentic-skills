@@ -5,7 +5,7 @@ Personal Claude Code plugin with custom commands and specialized agents.
 ## Install
 
 ```bash
-claude plugin add sassman/my-agentic-skills
+claude plugin install sassman/my-agentic-skills
 ```
 
 ## What's included
