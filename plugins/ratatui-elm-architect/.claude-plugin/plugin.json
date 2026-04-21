@@ -1,0 +1,9 @@
+{
+  "name": "ratatui-elm-architect",
+  "description": "Ratatui + Elm Architecture expert agent for building terminal UIs with pure update functions and side effect separation",
+  "version": "1.0.0",
+  "author": {
+    "name": "sassman"
+  },
+  "keywords": ["rust", "ratatui", "tui", "elm-architecture"]
+}

@@ -9,9 +9,15 @@
   "plugins": [
     {
       "name": "my",
-      "description": "Custom git and PR commands, plus specialized agents for Rust TUI development",
+      "description": "Custom git and PR commands",
       "version": "1.1.0",
       "source": "./plugins/my"
+    },
+    {
+      "name": "ratatui-elm-architect",
+      "description": "Ratatui + Elm Architecture expert agent for building terminal UIs",
+      "version": "1.0.0",
+      "source": "./plugins/ratatui-elm-architect"
     }
   ]
 }

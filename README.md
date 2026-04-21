@@ -1,34 +1,47 @@
 # my-agentic-skills
 
-Personal Claude Code plugin with custom commands and specialized agents.
+Personal Claude Code marketplace with custom commands and specialized agents. Each plugin can be installed independently.
 
 ## Install
 
+First, add the marketplace:
+
 ```bash
 claude plugin marketplace add sassman/my-agentic-skills
+```
+
+Then install the plugins you want:
+
+```bash
+# Install everything
+claude plugin install my@my-agentic-skills
+claude plugin install ratatui-elm-architect@my-agentic-skills
+
+# Or just the agent
+claude plugin install ratatui-elm-architect@my-agentic-skills
+
+# Or just the commands
 claude plugin install my@my-agentic-skills
 ```
 
-> **Note:** The plugin installs all commands and agents together. Commands only run when explicitly invoked (`/my:git-commit`), and the agent only activates when Claude detects relevant ratatui work — nothing interferes unless you use it.
+## Available plugins
 
-## What's included
+### `my` — Custom commands
 
-### Commands
+```bash
+claude plugin install my@my-agentic-skills
+```
 
 | Command | Invocation | Description |
 |---|---|---|
 | **git-commit** | `/my:git-commit` | Create a git commit with a meaningful message |
 | **pr-create** | `/my:pr-create` | Create a pull request with a meaningful title and description |
 
-### Agents
+### `ratatui-elm-architect` — Ratatui + Elm Architecture agent
 
-| Agent | Activation | Description |
-|---|---|---|
-| **ratatui-elm-architect** | Automatic | Expert in ratatui TUI apps with the Elm Architecture — enforces pure update functions, Pure/SideEffect message separation, and testable state transitions |
-
-## Agent details
-
-### ratatui-elm-architect
+```bash
+claude plugin install ratatui-elm-architect@my-agentic-skills
+```
 
 This agent activates automatically when Claude detects you're working on ratatui TUI code. No slash command needed — just work on your ratatui project and Claude will use the agent's expertise when relevant.
 
