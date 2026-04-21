@@ -14,28 +14,28 @@ Then install the plugins you want:
 
 ```bash
 # Install everything
-claude plugin install my@my-agentic-skills
+claude plugin install sas@my-agentic-skills
 claude plugin install ratatui-elm-architect@my-agentic-skills
 
 # Or just the agent
 claude plugin install ratatui-elm-architect@my-agentic-skills
 
 # Or just the commands
-claude plugin install my@my-agentic-skills
+claude plugin install sas@my-agentic-skills
 ```
 
 ## Available plugins
 
-### `my` — Custom commands
+### `sas` — Custom commands
 
 ```bash
-claude plugin install my@my-agentic-skills
+claude plugin install sas@my-agentic-skills
 ```
 
 | Command | Invocation | Description |
 |---|---|---|
-| **git-commit** | `/my:git-commit` | Create a git commit with a meaningful message |
-| **pr-create** | `/my:pr-create` | Create a pull request with a meaningful title and description |
+| **git-commit** | `/sas:git-commit` | Create a git commit with a meaningful message |
+| **pr-create** | `/sas:pr-create` | Create a pull request with a meaningful title and description |
 
 ### `ratatui-elm-architect` — Ratatui + Elm Architecture agent
 
