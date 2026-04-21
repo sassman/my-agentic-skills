@@ -14,8 +14,8 @@
       "source": "./plugins/sas"
     },
     {
-      "name": "ratatui-elm-architect",
-      "description": "Ratatui + Elm Architecture expert agent — strictly enforces the Pure/SideEffect message separation pattern for testable TUI apps",
+      "name": "rust-specialists",
+      "description": "Rust framework specialist agents — currently: ratatui + Elm Architecture expert",
       "version": "1.0.0",
       "source": "./plugins/ratatui-elm-architect"
     }

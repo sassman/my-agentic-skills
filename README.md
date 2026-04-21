@@ -15,10 +15,10 @@ Then install the plugins you want:
 ```bash
 # Install everything
 claude plugin install sas@my-agentic-skills
-claude plugin install ratatui-elm-architect@my-agentic-skills
+claude plugin install rust-specialists@my-agentic-skills
 
 # Or just the agent
-claude plugin install ratatui-elm-architect@my-agentic-skills
+claude plugin install rust-specialists@my-agentic-skills
 
 # Or just the commands
 claude plugin install sas@my-agentic-skills
@@ -39,10 +39,10 @@ Commit messages and PR descriptions that are non-verbose, useful, and crisp. Ver
 | **git-commit** | `/sas:git-commit` | Concise, meaningful commit messages |
 | **pr-create** | `/sas:pr-create` | Crisp PR titles and descriptions — no fluff |
 
-### `ratatui-elm-architect` — Ratatui + Elm Architecture agent
+### `rust-specialists` — Rust framework specialist agents
 
 ```bash
-claude plugin install ratatui-elm-architect@my-agentic-skills
+claude plugin install rust-specialists@my-agentic-skills
 ```
 
 Strictly enforces the Pure/SideEffect message separation pattern from [ratatui with the elm architecture — handling side effects](https://d34dl0ck.me/ratatui-elm-architecture-side-effects/). Activates automatically when Claude detects you're working on ratatui TUI code — no slash command needed.
