@@ -14,30 +14,30 @@ Then install the plugins you want:
 
 ```bash
 # Install everything
-claude plugin install sas@my-agentic-skills
+claude plugin install sassman-git-style@my-agentic-skills
 claude plugin install sassman-rust-specialists@my-agentic-skills
 
 # Or just the agent
 claude plugin install sassman-rust-specialists@my-agentic-skills
 
 # Or just the commands
-claude plugin install sas@my-agentic-skills
+claude plugin install sassman-git-style@my-agentic-skills
 ```
 
 ## Available plugins
 
-### `sas` — Opinionated git commands
+### `sassman-git-style` — Opinionated git commands
 
 ```bash
-claude plugin install sas@my-agentic-skills
+claude plugin install sassman-git-style@my-agentic-skills
 ```
 
 Commit messages and PR descriptions that are non-verbose, useful, and crisp. Very opinionated.
 
 | Command | Invocation | Description |
 |---|---|---|
-| **git-commit** | `/sas:git-commit` | Concise, meaningful commit messages |
-| **pr-create** | `/sas:pr-create` | Crisp PR titles and descriptions — no fluff |
+| **git-commit** | `/sassman-git-style:git-commit` | Concise, meaningful commit messages |
+| **pr-create** | `/sassman-git-style:pr-create` | Crisp PR titles and descriptions — no fluff |
 
 ### `sassman-rust-specialists` — Rust framework specialist agents
 
