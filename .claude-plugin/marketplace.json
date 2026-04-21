@@ -14,7 +14,7 @@
       "source": "./plugins/sas"
     },
     {
-      "name": "rust-specialists",
+      "name": "sassman-rust-specialists",
       "description": "Rust framework specialist agents — currently: ratatui + Elm Architecture expert",
       "version": "1.0.0",
       "source": "./plugins/ratatui-elm-architect"

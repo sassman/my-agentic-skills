@@ -1,5 +1,5 @@
 {
-  "name": "rust-specialists",
+  "name": "sassman-rust-specialists",
   "description": "Ratatui + Elm Architecture expert agent — strictly enforces the Pure/SideEffect message separation pattern for testable TUI apps. Based on https://d34dl0ck.me/ratatui-elm-architecture-side-effects/",
   "version": "1.0.0",
   "author": {
