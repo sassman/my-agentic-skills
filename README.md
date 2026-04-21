@@ -5,8 +5,11 @@ Personal Claude Code plugin with custom commands and specialized agents.
 ## Install
 
 ```bash
-claude plugin install sassman/my-agentic-skills
+claude plugin marketplace add sassman/my-agentic-skills
+claude plugin install my@my-agentic-skills
 ```
+
+> **Note:** The plugin installs all commands and agents together. Commands only run when explicitly invoked (`/my:git-commit`), and the agent only activates when Claude detects relevant ratatui work — nothing interferes unless you use it.
 
 ## What's included
 
