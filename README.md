@@ -1,6 +1,6 @@
 # my-agentic-skills
 
-sassman's opinionated agentic skills and agents — personal tools for git workflows and ratatui TUI development. Each plugin can be installed independently.
+My opinionated agentic skills and agents — personal tools for git workflows and rust ratatui TUI development. Each plugin can be installed independently.
 
 ## Install
 
