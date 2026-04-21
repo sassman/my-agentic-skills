@@ -4,18 +4,18 @@
     "name": "sassman"
   },
   "metadata": {
-    "description": "Personal agentic skills marketplace"
+    "description": "sassman's opinionated agentic skills and agents — personal tools for git workflows and ratatui TUI development"
   },
   "plugins": [
     {
       "name": "sas",
-      "description": "Custom git and PR commands",
+      "description": "Opinionated git commit messages and PR descriptions — non-verbose, useful, and crisp",
       "version": "1.1.0",
       "source": "./plugins/sas"
     },
     {
       "name": "ratatui-elm-architect",
-      "description": "Ratatui + Elm Architecture expert agent for building terminal UIs",
+      "description": "Ratatui + Elm Architecture expert agent — strictly enforces the Pure/SideEffect message separation pattern for testable TUI apps",
       "version": "1.0.0",
       "source": "./plugins/ratatui-elm-architect"
     }

@@ -1,6 +1,6 @@
 # my-agentic-skills
 
-Personal Claude Code marketplace with custom commands and specialized agents. Each plugin can be installed independently.
+sassman's opinionated agentic skills and agents — personal tools for git workflows and ratatui TUI development. Each plugin can be installed independently.
 
 ## Install
 
@@ -26,16 +26,18 @@ claude plugin install sas@my-agentic-skills
 
 ## Available plugins
 
-### `sas` — Custom commands
+### `sas` — Opinionated git commands
 
 ```bash
 claude plugin install sas@my-agentic-skills
 ```
 
+Commit messages and PR descriptions that are non-verbose, useful, and crisp. Very opinionated.
+
 | Command | Invocation | Description |
 |---|---|---|
-| **git-commit** | `/sas:git-commit` | Create a git commit with a meaningful message |
-| **pr-create** | `/sas:pr-create` | Create a pull request with a meaningful title and description |
+| **git-commit** | `/sas:git-commit` | Concise, meaningful commit messages |
+| **pr-create** | `/sas:pr-create` | Crisp PR titles and descriptions — no fluff |
 
 ### `ratatui-elm-architect` — Ratatui + Elm Architecture agent
 
@@ -43,7 +45,7 @@ claude plugin install sas@my-agentic-skills
 claude plugin install ratatui-elm-architect@my-agentic-skills
 ```
 
-This agent activates automatically when Claude detects you're working on ratatui TUI code. No slash command needed — just work on your ratatui project and Claude will use the agent's expertise when relevant.
+Strictly enforces the Pure/SideEffect message separation pattern from [ratatui with the elm architecture — handling side effects](https://d34dl0ck.me/ratatui-elm-architecture-side-effects/). Activates automatically when Claude detects you're working on ratatui TUI code — no slash command needed.
 
 **What it enforces:**
 
