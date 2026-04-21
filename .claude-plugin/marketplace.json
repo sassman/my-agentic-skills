@@ -3,8 +3,9 @@
   "owner": {
     "name": "sassman"
   },
-  "description": "Personal agentic skills marketplace",
-  "version": "1.1.0",
+  "metadata": {
+    "description": "Personal agentic skills marketplace"
+  },
   "plugins": [
     {
       "name": "my",
